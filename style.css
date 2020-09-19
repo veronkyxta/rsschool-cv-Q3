@@ -1,0 +1,30 @@
+* {
+    background-color: #e2e2ee;
+}
+.targets{
+    position: relative;
+}
+.avatar {
+    margin-left: 20%;
+   
+}
+.items {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    height: 200px;
+    
+    background-color: #ffffff;
+    padding: 5px 20px 20px 20px;
+}
+
+.descr, .tel, .email, h2 {
+    background-color: #fff;
+}
+h2 {
+    text-align: center;
+}
+.descr {
+    line-height: 24px;
+}
