@@ -12,21 +12,24 @@
 </head>
 <body>
     
-<section class="life">
-    <div class="container">
-        <header class="header">
-               
+<div class="promo">
+        <header>
+        <h1>webdev</hi>
+           <nav>
+            
                 <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link_active">About</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">Syllabus</a></li>
-                    <img src="assets/icons/logo.png" alt="logo" class="logo">
-                    <li class="menu_item"><a href="#" class="menu_link">Projects</a></li>
-                    <li class="menu_item"><a href="#" class="menu_link">FAQ</a></li>
+                    <li><a href="#" class="menu_link menu_link_active">About</a></li>
+                    <li><a href="#" class="menu_link">Syllabus</a></li>
+                    <a href="#" class="logo"><img src="assets/icons/logo.png" alt="logo"></a>
+                    <li><a href="#" class="menu_link">Projects</a></li>
+                    <li><a href="#" class="menu_link">FAQ</a></li>
                 </ul>
             
+           </nav>
         </header>
-        
-         <h1 class="life_header">your life is WebDev</h1>
+     
+        <section class="life">
+            <h2 class="life_header">your life is WebDev</h2>
             <div class="life_descr">Whatever the approach to development may be, the final program must satisfy some fundamental properties</div>
         <button class="btn_main">get started</button>
         
@@ -36,7 +39,7 @@
                     <img src="assets/icons/mail.png">
                     </a>
                 
-                    <a href="#" class="social_item">
+                    <a href="#" class="social_item social_item_f">
                         <img src="assets/icons/facebook_fff.png">
                     </a>
                     <a href="#" class="social_item">
@@ -50,11 +53,12 @@
             </div>
         </div>
         </section>
+    </div>  
 
         <section class="reppresent">
             <div class="container">
                 <div class="text">
-                     <div class="text_title">Rappresent your idea with
+                     <div class="text_title">Rappresent your idea with<br>
     a smart Design</div>
             <div class="text_descr">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs. </div>
                 <button class="btn_main">get started</button>
@@ -68,13 +72,13 @@
 <div class="container">
    
         <div class="arrow">
-            <img src="assets/image/arrow-left.png" alt="arrow-left"> <span class="numb">1 / 5</span>
+            <img src="assets/image/arrow-left.png" alt="arrow-left"><span class="numb">&nbsp;&nbsp;1 </span> / <span> 5&nbsp;&nbsp;</span>
             <img src="assets/image/arrow-right.png" alt="arrow-right">
         </div>
-    <div>
+    <div class="slider">
         <div class="text_min">
             <div class="text_item">
-                <img src="assets/image/userpic-wrapper.jpg" class="text_img"></img>
+                <img src="assets/image/userpic-wrapper.png" class="text_img"></img>
             </div>
             <div class="text_title_min">our community</div>
                 <div class="text_descr_min">A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language</div>
@@ -95,14 +99,25 @@
 
 <section class="implement">
     <div class="container">
-        <div class="text">
-            <div class="text_title">Implement right Code</div>
-   <div class="text_descr">These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation </div>
-       <button class="btn_main">Learn more</button>
-   </div>
+        
    <div class="content"><img src="assets/image/content-image-2.jpg" alt="content"></div>
+   <div class="text">
+    <div class="text_title">Implement right Code</div>
+<div class="text_descr">These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation </div>
+<button class="btn_main">Learn more</button>
+</div>
 </div>
     </div>
+</section>
+
+<section class="newsletter">
+    <h3>sign up for our newsletter</h3>
+    <form id="consultation-form" class="feed-form" action="#">
+        
+        <input name="email" required placeholder="Ваше E-mail" type="email">
+        
+        <button class="btn_main"></button><img src="assets/icons/btn-submit.png" alt="submit">
+    </form>
 </section>
 </body>
 </html>
