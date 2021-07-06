@@ -2,7 +2,7 @@
 _+375296385188_ || email: _v.kyxta@gmail.com_
 
 I want to become a good developer. I've got a huge interest in web-development. I am ready to improve my skills.
-I've started learning Web fives years ago.
+I've started learning Web fours years ago.
 
 #### Education: 
 
